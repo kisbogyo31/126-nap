@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>126 nap ❤️</title>
+
+    <meta
+        name="theme-color"
+        content="#f7d9e3"
+    >
+
+    <meta
+        name="apple-mobile-web-app-capable"
+        content="yes"
+    >
+
+    <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="default"
+    >
+
+    <meta
+        name="apple-mobile-web-app-title"
+        content="126 nap"
+    >
+
+    <link
+        rel="manifest"
+        href="manifest.json"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <main class="app">
+
+        <!-- FŐOLDAL -->
+
+        <section
+            id="homeScreen"
+            class="screen"
+        >
+
+            <div class="heart">
+                ♡
+            </div>
+
+            <p
+                class="day"
+                id="dayText"
+            >
+                1. nap
+            </p>
+
+
+            <div class="quote-card">
+
+                <p
+                    class="personal-message"
+                    id="personalMessage"
+                ></p>
+
+
+                <div class="divider"></div>
+
+
+                <p
+                    class="quote"
+                    id="quote"
+                ></p>
+
+            </div>
+
+
+            <p
+                class="counter"
+                id="counter"
+            >
+                1 / 126
+            </p>
+
+
+            <button
+                id="historyButton"
+                class="main-button"
+            >
+                Korábbi idézetek
+            </button>
+
+
+            <button
+                id="memoryButton"
+                class="secondary-button hidden"
+            >
+                Az én 126 napom ❤️
+            </button>
+
+
+            <button
+                id="resetButton"
+                class="reset-button"
+            >
+                Újrakezdés
+            </button>
+
+        </section>
+
+
+        <!-- KORÁBBI IDÉZETEK -->
+
+        <section
+            id="historyScreen"
+            class="screen hidden"
+        >
+
+            <div class="subpage-header">
+
+                <button
+                    id="backFromHistory"
+                    class="back-button"
+                >
+                    ←
+                </button>
+
+
+                <h1>
+                    Korábbi idézetek
+                </h1>
+
+            </div>
+
+
+            <p class="subpage-description">
+                Az eddig megkapott idézeteid
+            </p>
+
+
+            <div
+                id="historyList"
+                class="history-list"
+            ></div>
+
+        </section>
+
+
+        <!-- EGY KORÁBBI IDÉZET -->
+
+        <section
+            id="quoteScreen"
+            class="screen hidden"
+        >
+
+            <div class="subpage-header">
+
+                <button
+                    id="backFromQuote"
+                    class="back-button"
+                >
+                    ←
+                </button>
+
+
+                <h1 id="previousDayTitle">
+                    1. nap
+                </h1>
+
+            </div>
+
+
+            <div class="quote-card previous-card">
+
+                <p
+                    class="personal-message"
+                    id="previousMessage"
+                ></p>
+
+
+                <div class="divider"></div>
+
+
+                <p
+                    class="quote"
+                    id="previousQuote"
+                ></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- EMLÉKKÖNYV -->
+
+        <section
+            id="memoryScreen"
+            class="screen hidden"
+        >
+
+            <div class="subpage-header">
+
+                <button
+                    id="backFromMemory"
+                    class="back-button"
+                >
+                    ←
+                </button>
+
+
+                <h1>
+                    Az én 126 napom
+                </h1>
+
+            </div>
+
+
+            <p class="subpage-description">
+                Egy kis emlékkönyv a 126 napról ❤️
+            </p>
+
+
+            <div class="memory-card">
+
+                <p
+                    id="memoryDay"
+                    class="memory-day"
+                >
+                    1. nap
+                </p>
+
+
+                <p
+                    id="memoryMessage"
+                    class="memory-message"
+                ></p>
+
+
+                <div class="divider"></div>
+
+
+                <p
+                    id="memoryQuote"
+                    class="memory-quote"
+                ></p>
+
+            </div>
+
+
+            <div class="memory-navigation">
+
+                <button
+                    id="previousMemory"
+                    class="round-button"
+                >
+                    ←
+                </button>
+
+
+                <span
+                    id="memoryCounter"
+                    class="memory-counter"
+                >
+                    1 / 126
+                </span>
+
+
+                <button
+                    id="nextMemory"
+                    class="round-button"
+                >
+                    →
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="quotes.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

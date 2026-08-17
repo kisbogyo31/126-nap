@@ -1,0 +1,635 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    min-height: 100%;
+}
+
+
+body {
+
+    margin: 0;
+
+    min-height: 100vh;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff7f9 0%,
+            #fbe5ec 100%
+        );
+
+    color: #4b3038;
+
+    padding: 24px;
+}
+
+
+.app {
+
+    width: 100%;
+
+    max-width: 540px;
+
+    margin: 0 auto;
+
+    padding:
+        30px 0 50px;
+}
+
+
+.screen {
+
+    width: 100%;
+
+    animation:
+        fadeIn 0.25s ease;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* -------------------------
+   FŐOLDAL
+------------------------- */
+
+#homeScreen {
+    text-align: center;
+}
+
+
+.heart {
+
+    font-size: 58px;
+
+    line-height: 1;
+
+    color: #d98da5;
+
+    margin-bottom: 12px;
+}
+
+
+.day {
+
+    margin:
+        0 0 24px;
+
+    font-size: 14px;
+
+    letter-spacing: 4px;
+
+    text-transform: uppercase;
+
+    color: #a36b7c;
+}
+
+
+.quote-card {
+
+    background:
+        rgba(255, 255, 255, 0.88);
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.9);
+
+    border-radius: 30px;
+
+    padding:
+        42px 30px;
+
+    box-shadow:
+        0 18px 50px
+        rgba(120, 70, 90, 0.13);
+
+    backdrop-filter: blur(12px);
+}
+
+
+.personal-message {
+
+    margin:
+        0 0 25px;
+
+    font-size: 19px;
+
+    line-height: 1.6;
+
+    font-weight: 600;
+
+    color: #68414d;
+}
+
+
+.divider {
+
+    width: 55px;
+
+    height: 1px;
+
+    background: #d7a5b4;
+
+    margin:
+        0 auto 25px;
+}
+
+
+.quote {
+
+    margin: 0;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 25px;
+
+    line-height: 1.65;
+
+    color: #49343b;
+}
+
+
+.counter {
+
+    margin:
+        22px 0 0;
+
+    font-size: 14px;
+
+    color: #a07887;
+}
+
+
+/* -------------------------
+   GOMBOK
+------------------------- */
+
+.main-button {
+
+    display: block;
+
+    width: 100%;
+
+    margin:
+        25px auto 0;
+
+    padding:
+        15px 20px;
+
+    border: none;
+
+    border-radius: 50px;
+
+    background: #c9859d;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 20px
+        rgba(180, 100, 130, 0.18);
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+
+.main-button:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 12px 25px
+        rgba(180, 100, 130, 0.22);
+}
+
+
+.secondary-button {
+
+    display: block;
+
+    width: 100%;
+
+    margin:
+        12px auto 0;
+
+    padding:
+        14px 20px;
+
+    border:
+        1px solid #d7a5b4;
+
+    border-radius: 50px;
+
+    background:
+        rgba(255,255,255,0.7);
+
+    color: #9b6578;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+
+.reset-button {
+
+    display: block;
+
+    margin:
+        20px auto 0;
+
+    border: none;
+
+    background: transparent;
+
+    color: #a77988;
+
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+
+/* -------------------------
+   ALMENÜK
+------------------------- */
+
+.subpage-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 8px;
+}
+
+
+.subpage-header h1 {
+
+    margin: 0;
+
+    font-size: 23px;
+
+    font-weight: 600;
+
+    color: #5c3944;
+}
+
+
+.back-button {
+
+    width: 40px;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background:
+        rgba(255,255,255,0.8);
+
+    color: #9b6578;
+
+    font-size: 23px;
+
+    cursor: pointer;
+}
+
+
+.subpage-description {
+
+    margin:
+        0 0 25px 55px;
+
+    font-size: 14px;
+
+    color: #a07887;
+}
+
+
+/* -------------------------
+   ELŐZMÉNYEK
+------------------------- */
+
+.history-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+.history-item {
+
+    width: 100%;
+
+    padding: 20px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background:
+        rgba(255,255,255,0.86);
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 25px
+        rgba(120, 70, 90, 0.07);
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+
+.history-item:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 12px 30px
+        rgba(120, 70, 90, 0.11);
+}
+
+
+.history-day {
+
+    margin-bottom: 8px;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    color: #b17c8c;
+}
+
+
+.history-preview {
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 17px;
+
+    line-height: 1.5;
+
+    color: #5c4149;
+}
+
+
+.history-message-preview {
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 1.45;
+
+    color: #79515d;
+}
+
+
+/* -------------------------
+   KORÁBBI IDÉZET
+------------------------- */
+
+.previous-card {
+
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+
+/* -------------------------
+   EMLÉKKÖNYV
+------------------------- */
+
+.memory-card {
+
+    margin-top: 30px;
+
+    min-height: 380px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding:
+        45px 30px;
+
+    border-radius: 30px;
+
+    background:
+        rgba(255,255,255,0.9);
+
+    box-shadow:
+        0 18px 50px
+        rgba(120, 70, 90, 0.13);
+}
+
+
+.memory-day {
+
+    margin: 0 0 25px;
+
+    font-size: 13px;
+
+    letter-spacing: 4px;
+
+    text-transform: uppercase;
+
+    color: #a36b7c;
+}
+
+
+.memory-message {
+
+    margin:
+        0 0 25px;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    font-weight: 600;
+}
+
+
+.memory-quote {
+
+    margin: 0;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 24px;
+
+    line-height: 1.65;
+
+    color: #49343b;
+}
+
+
+.memory-navigation {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 25px;
+
+    margin-top: 25px;
+}
+
+
+.round-button {
+
+    width: 48px;
+
+    height: 48px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background:
+        rgba(255,255,255,0.9);
+
+    color: #9b6578;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 5px 15px
+        rgba(120, 70, 90, 0.08);
+}
+
+
+.round-button:disabled {
+
+    opacity: 0.35;
+
+    cursor: default;
+}
+
+
+.memory-counter {
+
+    min-width: 70px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: #a07887;
+}
+
+
+/* -------------------------
+   MOBIL
+------------------------- */
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 16px;
+    }
+
+
+    .app {
+        padding-top: 15px;
+    }
+
+
+    .quote-card {
+        padding:
+            34px 22px;
+    }
+
+
+    .quote {
+        font-size: 21px;
+    }
+
+
+    .personal-message {
+        font-size: 17px;
+    }
+
+
+    .memory-card {
+        min-height: 360px;
+
+        padding:
+            35px 22px;
+    }
+
+
+    .memory-quote {
+        font-size: 21px;
+    }
+
+}
