@@ -6,15 +6,15 @@ const quotes = [
     },
 
     {
-        quote: "Akit igazán szeretünk, annak nem a tökéletességét szeretjük, hanem az egész lényét."
+        quote: "Akit igazán szeretünk, annak nem a tökéletességét szeretjük, hanem az egész lényét. Senki sem tökéletes, de mi azok lehetünk egymás számára."
     },
 
     {
-        quote: "Néha a szeretet nem azt jelenti, hogy maradsz, hanem azt, hogy elengeded."
+        quote: "Jól csak a szívével lát az ember, ami igazán lényeges az a szemnek láthatatlan."
     },
 
     {
-        quote: "Az egészséges szerelemben nem kell kisebbnek lenned ahhoz, hogy a másik melletted maradjon."
+        quote: "Minden egyes külön töltött nap közelebb visz az együtt töltött időhöz."
     },
 
     {
@@ -26,7 +26,7 @@ const quotes = [
     },
 
     {
-        quote: "Nem az számít, hogy mindig minden könnyű legyen, hanem hogy legyen kivel együtt végigmenni rajta."
+        quote: "Nem az számít, hogy mindig minden könnyű legyen, hanem hogy legyen kivel együtt végigmenni az úton."
     },
 
     {
@@ -42,7 +42,7 @@ const quotes = [
     },
 
     {
-        quote: "Néha a legnagyobb változás csendben történik bennünk."
+        quote: "Vegyél egy szál virágot és tedd bele egy vázába. Tedd az ágyad mellé. Ez a virág én leszek és minden este együtt alszunk el."
     },
 
     {
@@ -90,7 +90,7 @@ const quotes = [
     },
 
     {
-        quote: "A hibáid nem tesznek kevésbé szerethetővé."
+        quote: "Írj egy levelet. Te döntöd el, hogy kinek. Bárki lehet."
     },
 
     {
@@ -126,7 +126,7 @@ const quotes = [
     },
 
     {
-        quote: "A bizalom nem egyik napról a másikra épül fel."
+        quote: "Tudd, hogy nagyon büszke vagyok rád! Egy csoda vagy!"
     },
 
     {
@@ -150,7 +150,7 @@ const quotes = [
     },
 
     {
-        quote: "A szeretet nem tökéletes. Ettől még lehet valódi."
+        quote: "A szeretet nem tökéletes. Ettől még valódi."
     },
 
     {
@@ -174,7 +174,7 @@ const quotes = [
     },
 
     {
-        quote: "A szeretet egyik legnagyobb ajándéka, hogy megtanít bennünket önmagunkról."
+        quote: "A szeretet egyik legnagyobb ajándéka, hogy közben megismerjük önmagunkat."
     },
 
     {
@@ -198,7 +198,7 @@ const quotes = [
     },
 
     {
-        quote: "Aki szeret, annak nem kell kisebbnek lenned."
+        quote: "Aki szeret, amellett nem kell kisebbnek lenned."
     },
 
     {
@@ -274,7 +274,7 @@ const quotes = [
     },
 
     {
-        quote: "A szeretet néha türelmet jelent."
+        quote: "Ülj be egy kávéra. Csak te és az aktuális könyv amit olvasol."
     },
 
     {
@@ -298,7 +298,7 @@ const quotes = [
     },
 
     {
-        quote: "Aki szeret, az nem feltétlenül tudja mindig jól kimutatni."
+        quote: "Csak fogj meg egy papírt és írd le, mi az amiért hálás vagy kettőnkkel kapcsolatban."
     },
 
     {
@@ -350,7 +350,7 @@ const quotes = [
     },
 
     {
-        quote: "Nem minden távolság végleges."
+        quote: "Sétálj ma egyet. És csak éld meg a pillanatot. Ahogy a friss levegő végig simít az orrodban."
     },
 
     {
@@ -410,7 +410,7 @@ const quotes = [
     },
 
     {
-        quote: "A kapcsolat akkor tud mélyülni, ha mindketten mertek őszinték lenni."
+        quote: "Hívj fel. Most amikor ezt látod. Az sem baj, ha éppen hajnal van. Csak hívj fel."
     },
 
     {
@@ -546,7 +546,7 @@ const quotes = [
     },
 
     {
-        quote: "Minden nap egy új esély arra, hogy közelebb kerülj önmagadhoz."
+        quote: "Mit érzel? Mi van benned? Rajzold le."
     },
 
     {
